@@ -20,6 +20,10 @@ body {
   color: var(--primaty-text-color);
 }
 
+.hidden {
+  display: none;
+}
+
 /* разметка для хедера */
 .site-nav .link {
   color: var(--primaty-text-color);
