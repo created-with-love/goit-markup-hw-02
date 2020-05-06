@@ -1,0 +1,18 @@
+ul {
+  list-style: none;
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--white);
+}
+
+.filter-list .link {
+  color: var(--primaty-text-color);
+}
+
+.filter-list .link:hover,
+.filter-list .link:focus {
+  background-color: var(--accent-color);
+  color: var(--white);
+}
