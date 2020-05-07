@@ -39,6 +39,10 @@ ul {
 }
 
 .hero-button {
+  /*костыль для выравнивания по центру*/
+  position: absolute;
+  left: 732px;
+
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
@@ -85,4 +89,8 @@ ul {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+}
+
+.team-section {
+  background: var(--background-second-color);
 }
