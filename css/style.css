@@ -2,10 +2,12 @@ ul {
   list-style: none;
 }
 
-body {
+.page {
+  color: var(--primaty-text-color);
+
   font-family: Roboto, sans-serif;
-  font-size: 14px;
-  line-height: 1.71;
+  font-style: normal;
+  font-weight: normal;
   letter-spacing: 0.03em;
 }
 
