@@ -2,7 +2,26 @@ ul {
   list-style: none;
 }
 
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+}
 .button {
+  background-color: var(--accent-color);
+  color: var(--white);
+}
+
+.portfolio-button {
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
   background-color: var(--accent-color);
   color: var(--white);
 }
@@ -21,9 +40,18 @@ ul {
   text-decoration: none;
 }
 
-.product-item h2 {
+.product-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
   color: var(--primaty-text-color);
 }
-.product-item p {
+
+.product-type {
+  font-size: 16px;
+  line-height: 1.88;
+
   color: var(--second-text-color);
 }

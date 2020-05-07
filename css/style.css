@@ -2,7 +2,85 @@ ul {
   list-style: none;
 }
 
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
 .button {
   background-color: var(--accent-color);
   color: var(--white);
+}
+
+/* H1 */
+.main-heading {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.hero-section {
+  /* background-color: gray; */
+  background-image: url(../images/Header-img.jpg);
+  background-blend-mode: overlay;
+  width: 1600px;
+  height: 600px;
+}
+
+.hero-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  text-decoration: none;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* H3 */
+.third-heading,
+.our-work-heading {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.our-work-heading {
+  color: var(--white);
+  background: rgba(47, 48, 58, 0.8);
+}
+
+/* H2 */
+.section-heading {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.third-heading-par,
+.team-member-position {
+  color: var(--second-text-color);
+}
+
+.team-member-name {
+  font-weight: 500;
+}
+
+.team-member-position,
+.team-member-name {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }

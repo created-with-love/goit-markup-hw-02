@@ -18,6 +18,11 @@
 
 body {
   color: var(--primaty-text-color);
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.03em;
 }
 
 .hidden {
@@ -41,6 +46,16 @@ body {
 .contacts .contacts-link {
   color: var(--second-text-color);
   text-decoration: none;
+}
+
+.site-nav,
+.contacts {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .contacts .contacts-link:hover,
@@ -73,11 +88,33 @@ body {
 
 .copyright {
   color: rgba(255, 255, 255, 0.6);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .address {
   text-decoration: none;
+
+  font-family: Roboto;
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-action-request {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .social-link {

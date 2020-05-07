@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Web Studio v.1</title>
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -12,7 +16,7 @@
       <!--Шапка сайта-->
       <header>
         <nav>
-          <a href="/">
+          <a href="./index.html">
             <img
               src="./images/logo.svg"
               class="logo"
@@ -54,11 +58,11 @@
       </header>
       <!-- Herou -->
       <section class="hero-section">
-        <h1>
+        <h1 class="main-heading">
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <a href="" class="button">Заказать услугу</a>
+        <a href="" class="button hero-button">Заказать услугу</a>
       </section>
       <!-- About us-->
       <section>
@@ -70,16 +74,16 @@
               alt="спутниковая антена"
               width="70"
             />
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="third-heading">Внимание к деталям</h3>
+            <p class="third-heading-par">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
             <img src="./images/clock.svg" alt="часы" width="70" />
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="third-heading">Пунктуальность</h3>
+            <p class="third-heading-par">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
@@ -90,16 +94,16 @@
               alt="Диаграма на экране ПК"
               width="70"
             />
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="third-heading">Планирование</h3>
+            <p class="third-heading-par">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
             <img src="./images/astronaut.svg" alt="космонавт" width="70" />
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="third-heading">Современные технологии</h3>
+            <p class="third-heading-par">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -108,7 +112,7 @@
       </section>
       <!-- What are we doing?-->
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="section-heading">Чем мы занимаемся</h2>
         <ul>
           <li>
             <a href=""
@@ -117,13 +121,13 @@
                 alt="пользователь за ноутбуком"
                 width="380"
             /></a>
-            <h3>Десктопные приложения</h3>
+            <h3 class="our-work-heading">Десктопные приложения</h3>
           </li>
           <li>
             <a href=""
               ><img src="./images/smartphone.jpg" alt="смартфон" width="380"
             /></a>
-            <h3>Мобильные приложения</h3>
+            <h3 class="our-work-heading">Мобильные приложения</h3>
           </li>
           <li>
             <a href=""
@@ -132,13 +136,13 @@
                 alt="экран компьютера"
                 width="380"
             /></a>
-            <h3>Дизайнерские решения</h3>
+            <h3 class="our-work-heading">Дизайнерские решения</h3>
           </li>
         </ul>
       </section>
       <!-- Out team-->
       <section>
-        <h2>Наша команда</h2>
+        <h2 class="section-heading">Наша команда</h2>
         <ul>
           <li>
             <img
@@ -146,8 +150,8 @@
               alt="фото члена команды"
               width="278"
             />
-            <h3>John Smith</h3>
-            <p>Product Designer</p>
+            <h3 class="team-member-name">John Smith</h3>
+            <p class="team-member-position">Product Designer</p>
             <ul>
               <li>
                 <a href=""
@@ -189,8 +193,8 @@
               alt="фото члена команды"
               width="278"
             />
-            <h3>Marta Stewart</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-member-name">Marta Stewart</h3>
+            <p class="team-member-position">Frontend Developer</p>
             <ul>
               <li>
                 <a href=""
@@ -232,8 +236,8 @@
               alt="фото члена команды"
               width="278"
             />
-            <h3>Robert Jakis</h3>
-            <p>Marketing</p>
+            <h3 class="team-member-name">Robert Jakis</h3>
+            <p class="team-member-position">Marketing</p>
             <ul>
               <li>
                 <a href=""
@@ -275,8 +279,8 @@
               alt="фото члена команды"
               width="278"
             />
-            <h3>Martin Doe</h3>
-            <p>UI Designer</p>
+            <h3 class="team-member-name">Martin Doe</h3>
+            <p class="team-member-position">UI Designer</p>
             <ul>
               <li>
                 <a href=""
@@ -316,7 +320,7 @@
       </section>
       <!-- Our clients-->
       <section>
-        <h2>Постоянные клиенты</h2>
+        <h2 class="section-heading">Постоянные клиенты</h2>
         <ul>
           <li>
             <a href=""
@@ -377,7 +381,7 @@
       <h2 class="hidden">Наши контакты и социальные сети</h2>
 
       <div>
-        <a href="/">
+        <a href="./index.html">
           <img
             src="./images/logo-footer.svg"
             alt="логотип веб-студии"
@@ -397,8 +401,8 @@
       </div>
 
       <div>
-        <b>Присоединяйтесь</b>
-        <ul>
+        <b class="footer-action-request">Присоединяйтесь</b>
+        <ul class="address">
           <li>
             <a href="" class="social-link" aria-label="Ссылка на Инстаграмм"
               >Instagram</a
@@ -423,7 +427,7 @@
       </div>
 
       <div>
-        <b>Подписаться на рассылку</b>
+        <b class="footer-action-request">Подписаться на рассылку</b>
         <form>
           <input type="email" name="email" placeholder="E-mail" />
           <input type="button" value="Подписаться" class="button" />

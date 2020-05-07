@@ -3,62 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Web Studio v.1</title>
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/portfolio.css" />
   </head>
 
   <body class="page">
+    <!--Шапка сайта-->
+    <header>
+      <nav>
+        <a href="./index.html">
+          <img
+            src="./images/logo.svg"
+            class="logo"
+            alt="Логотип компании"
+            width="153"
+          />
+        </a>
+        <ul class="site-nav">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li>
+            <a href="./portfolio.html" class="link chosen-page">Портфолио</a>
+          </li>
+          <li><a href="" class="link">Контакты</a></li>
+        </ul>
+
+        <ul class="contacts">
+          <li>
+            <a href="mailto:info@devstudio.com" class="contacts-link">
+              <img src="./images/letter.svg" alt="емейл почта" width="16" />
+              info@devstudio.com</a
+            >
+          </li>
+
+          <li>
+            <a href="tel:+380961111111" class="contacts-link">
+              <img src="./images/phone.svg" alt="логотип телефона" width="10" />
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <!--Шапка сайта-->
-      <header>
-        <nav>
-          <a href="/">
-            <img
-              src="./images/logo.svg"
-              class="logo"
-              alt="Логотип компании"
-              width="153"
-            />
-          </a>
-          <ul class="site-nav">
-            <li><a href="./index.html" class="link">Студия</a></li>
-            <li>
-              <a href="./portfolio.html" class="link chosen-page">Портфолио</a>
-            </li>
-            <li><a href="" class="link">Контакты</a></li>
-          </ul>
-
-          <ul class="contacts">
-            <li>
-              <a href="mailto:info@devstudio.com" class="contacts-link">
-                <img src="./images/letter.svg" alt="емейл почта" width="16" />
-                info@devstudio.com</a
-              >
-            </li>
-
-            <li>
-              <a href="tel:+380961111111" class="contacts-link">
-                <img
-                  src="./images/phone.svg"
-                  alt="логотип телефона"
-                  width="10"
-                />
-                +38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </header>
       <!-- Herou -->
       <h1 class="hidden">Список наших продуктов и сервисов</h1>
       <section>
         <ul class="filter-list">
-          <li><a href="" class="link">Все</a></li>
-          <li><a href="" class="link">Веб-сайты</a></li>
-          <li><a href="" class="link">Приложения</a></li>
-          <li><a href="" class="link">Дизайн</a></li>
-          <li><a href="" class="link">Маркетинг</a></li>
+          <li>
+            <button type="button" class="portfolio-button">Все</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-button">Веб-сайты</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-button">Приложения</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-button">Дизайн</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-button">Маркетинг</button>
+          </li>
         </ul>
 
         <ul class="list-of-products">
@@ -70,8 +80,8 @@
                 width="380"
                 height="294"
               />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="product-name">Технокряк</h2>
+              <p class="product-type">Веб-сайт</p>
             </a>
           </li>
           <li>
@@ -82,8 +92,8 @@
                 width="380"
                 height="294"
             /></a>
-            <h2>Постер New Orlean vs Golden Stars</h2>
-            <p>Дизайн</p>
+            <h2 class="product-name">Постер New Orlean vs Golden Stars</h2>
+            <p class="product-type">Дизайн</p>
           </li>
           <li>
             <a href="" class="product-item"
@@ -93,8 +103,8 @@
                 width="380"
                 height="294"
               />
-              <h2>Ресторан Seafood</h2>
-              <p>Приложение</p>
+              <h2 class="product-name">Ресторан Seafood</h2>
+              <p class="product-type">Приложение</p>
             </a>
           </li>
           <li>
@@ -105,8 +115,8 @@
                 width="380"
                 height="294"
               />
-              <h2>Проект Prime</h2>
-              <p>Маркетинг</p></a
+              <h2 class="product-name">Проект Prime</h2>
+              <p class="product-type">Маркетинг</p></a
             >
           </li>
           <li>
@@ -117,8 +127,8 @@
                 width="380"
                 height="294"
               />
-              <h2>Проект Boxes</h2>
-              <p>Приложение</p></a
+              <h2 class="product-name">Проект Boxes</h2>
+              <p class="product-type">Приложение</p></a
             >
           </li>
           <li>
@@ -129,8 +139,8 @@
                 width="380"
                 height="294"
               />
-              <h2>Inspiration has no Borders</h2>
-              <p>Веб-сайт</p></a
+              <h2 class="product-name">Inspiration has no Borders</h2>
+              <p class="product-type">Веб-сайт</p></a
             >
           </li>
           <li>
@@ -141,8 +151,8 @@
                 width="380"
                 height="294"
               />
-              <h2>Издание Limited Edition</h2>
-              <p>Дизайн</p></a
+              <h2 class="product-name">Издание Limited Edition</h2>
+              <p class="product-type">Дизайн</p></a
             >
           </li>
           <li>
@@ -153,8 +163,8 @@
                 width="380"
                 height="294"
               />
-              <h2>Проект LAB</h2>
-              <p>Маркетинг</p></a
+              <h2 class="product-name">Проект LAB</h2>
+              <p class="product-type">Маркетинг</p></a
             >
           </li>
           <li>
@@ -165,8 +175,8 @@
                 width="380"
                 height="294"
               />
-              <h2>Growing Business</h2>
-              <p>Приложение</p></a
+              <h2 class="product-name">Growing Business</h2>
+              <p class="product-type">Приложение</p></a
             >
           </li>
         </ul>
@@ -178,7 +188,7 @@
       <h2 class="hidden">Наши контакты и социальные сети</h2>
 
       <div>
-        <a href="/">
+        <a href="./index.html">
           <img
             src="./images/logo-footer.svg"
             alt="логотип веб-студии"
@@ -199,7 +209,7 @@
 
       <div>
         <b>Присоединяйтесь</b>
-        <ul>
+        <ul class="address">
           <li>
             <a href="" class="social-link" aria-label="Ссылка на Инстаграмм"
               >Instagram</a
